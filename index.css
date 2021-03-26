@@ -1,0 +1,42 @@
+#clockcontainer{
+    border: 2px solid black;
+    height: 40vw;
+    width: 40vw;
+    background: url('pyr.png') no-repeat;
+    background-size: 100%;
+    margin: auto;
+
+}
+
+#hour, #minute , #second{
+    position:relative;
+    
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+ 
+
+    width: 2%;
+    height: 30%;
+    top: 20%;
+    left: 49%;
+    background: black;
+}
+#minute{
+    background: rgb(22, 19, 19) ;
+    
+    width: 1%;
+    height: 36%;
+    top: -16%;
+    left: 49.5%;
+}
+#second{
+    background: rgb(39, 29, 29) ;
+    
+    width: 0.7%;
+    height: 34%;
+    top: -50%;
+    left: 49.5%;
+
+}
